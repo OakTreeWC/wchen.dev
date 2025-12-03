@@ -26,4 +26,4 @@ def api_status():
         return jsonify(status="ok", message="Flask app running")
 
 if __name__ == "__main__":
-        app.run(debug=False, host="0.0.0.0", port=80)
+        app.run(debug=False, host="0.0.0.0", port=5001)
