@@ -32,7 +32,8 @@ footer {
   min-height: 50px;
   display: flex;
   align-items: left;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 1em;
 }
 footer small {
     margin-right: 2em;
