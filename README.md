@@ -11,4 +11,4 @@ and run!
 '''python3 main.py'''
 *may need to run with elevated permissions*
 
-![A Screenshot of the homepage](https://wchen.dev/static/homepage.png)
+<img width="3754" height="1892" alt="homepage" src="https://wchen.dev/static/homepage.png" />
