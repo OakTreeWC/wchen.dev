@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WCHEN.DEV</title>
+    <meta name="description" content="William Chen's Site">
+    <link rel="stylesheet" href="/static/projects.css">
+    <link rel="stylesheet" href="/static/index.css">
+    <link rel="shortcut icon" href="/static/favicon.ico">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>WCHEN.DEV</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About Me</a>
+            <a href="/projects">My Projects</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="project-cards">
+            <h2>Projects</h2>
+            <div class="project-card" id="12KEMPV2.1">
+                <div class="project-info">
+                    <a href="/projects#12KEMPV2.1">12KEMP V2.1</a>
+                    <p class="sf-indicator">
+                        <span class="status-dot status-orange"></span>
+                        <span class="status-text">WIP</span>
+                    </p>
+                    
+                    <p class="project-description">
+                        The 12KEMP V2.1 is a simpler version of the 12KEMP V2.0, and uses a XIAO SEEED STUDIO RP2040 microcontroller instead of an Atmega32U4.
+                    </p>
+                </div>
+                <div class="project-image">
+                    <img src="/static/12kempV2.1.png" alt="12KEMP V2.1 Photo">
+                </div>
+            </div>
+            <div class="project-card" id="12KEMPV2.0">
+                <div class="project-info">
+                    <a href="/projects#12KEMPV2.0">12KEMP V2.0</a>
+                    <p class="sf-indicator">
+                        <span class="status-dot status-red"></span>
+                        <span class="status-text">Canceled</span>
+                    </p>
+                    
+                    <p class="project-description">
+                        The 12KEMP V2.0 is a completely revamped version of the original 12KEMP, with a new design, custom case, USB-C, a 0.91" OLED display, and addressable RGB LEDs. Instead of the Arduino Pro Micro, this uses a soldered on Atmega32U4, which allows for a more compact design and more IO pins. Due to some oversight, this version uses 0402 (1005 metric) smd components, instead of the larger 0603 (1608 metric) variant. This does slightly increase assembly difficulty, but not as much as I had feared.
+                    </p>
+                </div>
+                <div class="project-image">
+                    <img src="/static/12kempV2.0.png" alt="12KEMP V2.0 Photo">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <small>&copy; 2025 wchen.dev</small>
+        <small><a href="https://github.com/OakTreeWC">Github</a></small>
+        <small><a href="https://www.youtube.com/channel/UCnNzE1JkiUOLHnSLeJk2KXw">GoonTube</a></small>
+        <small><a href="mailto:william@wchen.dev">Email Me</a></small>
+    </footer>
+
+    <script src="/main.js" defer></script>
+</body>
+</html>

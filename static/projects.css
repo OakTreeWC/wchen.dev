@@ -1,0 +1,12 @@
+.project-card {
+    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns: 250px auto;
+}
+.project-info {
+    margin-left: 1em;
+    padding-right: 2em;
+}
+.project-description {
+    font-family:'Courier New', Courier, monospace
+}
